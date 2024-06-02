@@ -1,0 +1,250 @@
+Processing file: buffer_underrun_dynamic.c
+In file included from buffer_underrun_dynamic.c:1:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: cmp_funcadr.c
+In file included from cmp_funcadr.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+cmp_funcadr.c:26:6: warning: comparison of function 'cmp_funcadr_001_func_001' equal to a null pointer is always false
+        if (cmp_funcadr_001_func_001 == NULL) /*Tool should detect this line as error*/ /*ERROR:compare function address with NULL*/
+            ^~~~~~~~~~~~~~~~~~~~~~~~    ~~~~
+cmp_funcadr.c:26:6: note: prefix with the address-of operator to silence this warning
+        if (cmp_funcadr_001_func_001 == NULL) /*Tool should detect this line as error*/ /*ERROR:compare function address with NULL*/
+            ^
+            &
+cmp_funcadr.c:26:6: note: suffix with parentheses to turn this into a function call
+        if (cmp_funcadr_001_func_001 == NULL) /*Tool should detect this line as error*/ /*ERROR:compare function address with NULL*/
+            ^
+                                    ()
+cmp_funcadr.c:48:6: warning: comparison of function 'cmp_funcadr_002_func_001' equal to a null pointer is always false
+        if (cmp_funcadr_002_func_001 == NULL)/*Tool should detect this line as error*/ /*ERROR:compare function address with NULL*/
+            ^~~~~~~~~~~~~~~~~~~~~~~~    ~~~~
+cmp_funcadr.c:48:6: note: prefix with the address-of operator to silence this warning
+        if (cmp_funcadr_002_func_001 == NULL)/*Tool should detect this line as error*/ /*ERROR:compare function address with NULL*/
+            ^
+            &
+cmp_funcadr.c:48:6: note: suffix with parentheses to turn this into a function call
+        if (cmp_funcadr_002_func_001 == NULL)/*Tool should detect this line as error*/ /*ERROR:compare function address with NULL*/
+            ^
+                                    ()
+3 warnings generated.
+Processing file: conflicting_cond.c
+In file included from conflicting_cond.c:10:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: dead_lock.c
+In file included from dead_lock.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: double_release.c
+In file included from double_release.c:14:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: improper_termination_of_block.c
+In file included from improper_termination_of_block.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+improper_termination_of_block.c:38:19: warning: if statement has empty body
+        if (condition==0);      printf("%d",x);/*Tool should detect this line as error*/ /*ERROR:Improper termination of block*/
+                         ^
+improper_termination_of_block.c:38:19: note: put the semicolon on a separate line to silence this warning
+2 warnings generated.
+Processing file: insign_code.c
+In file included from insign_code.c:10:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: invalid_extern.c
+In file included from invalid_extern.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: littlemem_st.c
+In file included from littlemem_st.c:16:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: livelock.c
+In file included from livelock.c:17:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: lock_never_unlock.c
+In file included from lock_never_unlock.c:13:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: not_return.c
+In file included from not_return.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+not_return.c:24:1: warning: control may reach end of non-void function
+} /*Tool should detect this line as error*/ /*ERROR: No return value */
+^
+not_return.c:50:1: warning: control may reach end of non-void function
+}/*Tool should detect this line as error*/ /*ERROR: No return value */
+^
+not_return.c:76:1: warning: control may reach end of non-void function
+}/*Tool should detect this line as error*/ /*ERROR: No return value */
+^
+not_return.c:99:1: warning: control may reach end of non-void function
+}/*Tool should detect this line as error*/ /*ERROR: No return value */
+^
+5 warnings generated.
+Processing file: overrun_st.c
+In file included from overrun_st.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+overrun_st.c:21:2: warning: array index 5 is past the end of the array (which contains 5 elements)
+        buf[5] = 1; /*Tool should detect this line as error*/ /*ERROR: buffer overrun */
+        ^   ~
+overrun_st.c:20:2: note: array 'buf' declared here
+        char buf[5];
+        ^
+overrun_st.c:32:2: warning: array index 5 is past the end of the array (which contains 5 elements)
+        buf[5] = 1;/*Tool should detect this line as error*/ /*ERROR: buffer overrun */
+        ^   ~
+overrun_st.c:31:2: note: array 'buf' declared here
+        short buf[5];
+        ^
+overrun_st.c:44:8: warning: array index 5 is past the end of the array (which contains 5 elements)
+        ret = buf[5];/*Tool should detect this line as error*/ /*ERROR: buffer overrun */
+              ^   ~
+overrun_st.c:42:2: note: array 'buf' declared here
+        int buf[5] = {1, 2, 3, 4, 5};
+        ^
+overrun_st.c:55:2: warning: array index 5 is past the end of the array (which contains 5 elements)
+        buf[5] = 1;/*Tool should detect this line as error*/ /*ERROR: buffer overrun */
+        ^   ~
+overrun_st.c:54:2: note: array 'buf' declared here
+        int buf[5];
+        ^
+overrun_st.c:66:2: warning: array index 5 is past the end of the array (which contains 5 elements)
+        buf[5] = 1;/*Tool should detect this line as error*/ /*ERROR: buffer overrun */
+        ^   ~
+overrun_st.c:65:2: note: array 'buf' declared here
+        long buf[5];
+        ^
+overrun_st.c:77:2: warning: array index 5 is past the end of the array (which contains 5 elements)
+        buf[5] = 1.0;/*Tool should detect this line as error*/ /*ERROR: buffer overrun */
+        ^   ~
+overrun_st.c:76:2: note: array 'buf' declared here
+        float buf[5];
+        ^
+overrun_st.c:88:2: warning: array index 5 is past the end of the array (which contains 5 elements)
+        buf[5] = 1.0;/*Tool should detect this line as error*/ /*ERROR: buffer overrun */
+        ^   ~
+overrun_st.c:87:2: note: array 'buf' declared here
+        double buf[5];
+        ^
+overrun_st.c:158:2: warning: array index 5 is past the end of the array (which contains 5 elements)
+        overrun_st_012_s_gbl.buf[5] = 1;/*Tool should detect this line as error*/ /*ERROR: buffer overrun */
+        ^                        ~
+overrun_st.c:152:2: note: array 'buf' declared here
+        int buf[5];
+        ^
+overrun_st.c:706:2: warning: array index 5 is past the end of the array (which contains 5 elements)
+        buf[5] = 1;/*Tool should detect this line as error*/ /*ERROR: buffer overrun */
+        ^   ~
+overrun_st.c:705:2: note: array 'buf' declared here
+        int buf[] = {1, 2, 3, 4, 5};
+        ^
+overrun_st.c:749:2: warning: array index 5 is past the end of the array (which contains 5 elements)
+        buf[5] = 1;/*Tool should detect this line as error*/ /*ERROR: buffer overrun */
+        ^   ~
+overrun_st.c:748:2: note: array 'buf' declared here
+        char buf[] = "1234";
+        ^
+11 warnings generated.
+Processing file: ow_memcpy.c
+In file included from ow_memcpy.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: return_local.c
+In file included from return_local.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+return_local.c:19:9: warning: address of stack memory associated with local variable 'buf' returned
+        return buf;/*Tool should detect this line as error*/ /*ERROR: return - pointer to local variable */
+               ^~~
+2 warnings generated.
+Processing file: st_cross_thread_access.c
+In file included from st_cross_thread_access.c:13:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: st_underrun.c
+In file included from st_underrun.c:14:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: unlock_without_lock.c
+In file included from unlock_without_lock.c:13:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: unused_var.c
+In file included from unused_var.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: zero_division.c
+In file included from zero_division.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+zero_division.c:22:17: warning: division by zero is undefined
+        ret = dividend / 0;/*Tool should detect this line as error*/ /* ERROR:division by zero */
+                       ^ ~
+zero_division.c:33:11: warning: division by zero is undefined
+        dividend /= 0;/*Tool should detect this line as error*/ /* ERROR:division by zero */
+                 ^  ~
+zero_division.c:46:17: warning: remainder by zero is undefined
+        ret = dividend % 0;/*Tool should detect this line as error*/ /* ERROR:division by zero */
+                       ^ ~
+4 warnings generated.

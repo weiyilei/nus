@@ -1,0 +1,50 @@
+Type	Defect Type	TP	FN	TN	FP
+core	Dynamic memory defects	3	49	51	1
+	Pointer related defects	2	0	2	0
+	Inappropriate code	1	20	21	0
+	Concurrency defects	0	29	29	0
+	Misc defects	4	7	11	0
+	Static memory defects	12	42	53	1
+	Resource management defects	2	0	2	0
+	Stack related defects	0	13	13	0
+	Numerical defects	12	4	16	0
+					
+deadcode	Dynamic memory defects	0	52	52	0
+	Pointer related defects	2	0	2	0
+	Inappropriate code	2	19	21	0
+	Concurrency defects	2	27	29	0
+	Misc defects	4	7	11	0
+	Static memory defects	12	42	54	0
+	Resource management defects	1	1	2	0
+	Stack related defects	1	12	13	0
+	Numerical defects	0	16	16	0
+					
+osx	Dynamic memory defects	0	52	52	0
+	Pointer related defects	2	0	2	0
+	Inappropriate code	1	20	21	0
+	Concurrency defects	0	29	29	0
+	Misc defects	4	7	11	0
+	Static memory defects	10	44	54	0
+	Resource management defects	1	1	2	0
+	Stack related defects	0	13	13	0
+	Numerical defects	0	16	16	0
+					
+security	Dynamic memory defects	0	52	52	0
+	Pointer related defects	2	0	2	0
+	Inappropriate code	1	20	21	0
+	Concurrency defects	0	29	29	0
+	Misc defects	4	7	11	0
+	Static memory defects	10	44	54	0
+	Resource management defects	1	1	2	0
+	Stack related defects	1	12	13	0
+	Numerical defects	0	16	16	0
+					
+unix	Dynamic memory defects	0	52	52	0
+	Pointer related defects	2	0	2	0
+	Inappropriate code	1	20	21	0
+	Concurrency defects	0	29	29	0
+	Misc defects	4	7	11	0
+	Static memory defects	10	44	54	0
+	Resource management defects	1	1	2	0
+	Stack related defects	1	12	13	0
+	Numerical defects	0	16	16	0

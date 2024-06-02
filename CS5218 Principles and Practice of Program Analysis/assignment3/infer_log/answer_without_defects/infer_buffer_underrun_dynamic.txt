@@ -1,0 +1,23 @@
+#0
+buffer_underrun_dynamic.c:333: error: Buffer Overrun L3
+  Offset: [-6, 0] Size: 5.
+  331. 	if(buf!=NULL)
+  332. 	{
+  333. 	    *(buf-indexes[index]) = 1;/*Tool should Not detect this line as error*/ /*No ERROR:Buffer Underrun*/
+            ^
+  334. 	    free(buf);
+  335. 	}
+
+#1
+buffer_underrun_dynamic.c:514: error: Buffer Overrun L3
+  Offset: [-4, 0] Size: 3.
+  512. 		*(buf1+i)=i;
+  513. 	}
+  514. 	*(buf2-*(buf1+0))=1;/*Tool should Not detect this line as error*/ /*No ERROR:Buffer Underrun*/
+        ^
+  515. 	free(buf1);
+  516. 	free(buf2);
+
+Found 2 issues
+            Issue Type(ISSUED_TYPE_ID): #
+  Buffer Overrun L3(BUFFER_OVERRUN_L3): 2

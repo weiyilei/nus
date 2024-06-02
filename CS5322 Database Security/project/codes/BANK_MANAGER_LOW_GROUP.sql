@@ -1,0 +1,2 @@
+select * from DB_ADMIN.BANK_RECORDS;
+update DB_ADMIN.BANK_RECORDS set loan = 10000000;

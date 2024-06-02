@@ -1,0 +1,140 @@
+Processing file: buffer_underrun_dynamic.c
+In file included from buffer_underrun_dynamic.c:1:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: cmp_funcadr.c
+In file included from cmp_funcadr.c:10:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: conflicting_cond.c
+In file included from conflicting_cond.c:10:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: dead_lock.c
+In file included from dead_lock.c:10:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: double_release.c
+In file included from double_release.c:13:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: improper_termination_of_block.c
+In file included from improper_termination_of_block.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: insign_code.c
+In file included from insign_code.c:10:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: invalid_extern.c
+In file included from invalid_extern.c:18:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: littlemem_st.c
+In file included from littlemem_st.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: livelock.c
+In file included from livelock.c:17:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: lock_never_unlock.c
+In file included from lock_never_unlock.c:13:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: not_return.c
+In file included from not_return.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: overrun_st.c
+In file included from overrun_st.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: ow_memcpy.c
+In file included from ow_memcpy.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: return_local.c
+In file included from return_local.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: st_cross_thread_access.c
+In file included from st_cross_thread_access.c:13:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: st_underrun.c
+In file included from st_underrun.c:14:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: unlock_without_lock.c
+In file included from unlock_without_lock.c:13:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: unused_var.c
+In file included from unused_var.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.
+Processing file: zero_division.c
+In file included from zero_division.c:11:
+In file included from ./HeaderFile.h:13:
+/usr/include/pthread.h:744:12: warning: declaration of built-in function '__sigsetjmp' requires inclusion of the header <setjmp.h>
+extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) __THROWNL;
+           ^
+1 warning generated.

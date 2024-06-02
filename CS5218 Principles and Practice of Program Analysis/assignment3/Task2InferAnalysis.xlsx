@@ -1,0 +1,10 @@
+Defect Type	TP	FN	TN	FP
+Dynamic memory defects	36	16	50	2
+Pointer related defects	0	2	2	0
+Inappropriate code	0	21	21	0
+Concurrency defects	0	29	29	0
+Misc defects	1	10	11	0
+Static memory defects	47	7	48	6
+Resource management defects	1	1	2	0
+Stack related defects	0	13	13	0
+Numerical defects	12	4	16	0
